@@ -29,7 +29,7 @@ namespace EserciziStringhe
 
         public static string Convert (string s) //pag. 262 numero 11
         {
-            return "";
+
         }
     }
 }
