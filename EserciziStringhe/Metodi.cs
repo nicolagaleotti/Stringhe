@@ -29,7 +29,20 @@ namespace EserciziStringhe
 
         public static string Convert (string s) //pag. 262 numero 11
         {
-
+            for (int i = 0; i < s.Length - 1; i ++)
+            {
+                if (i == 0)
+                    Char.ToUpper(s[i]);
+                if (s[i] == ' ')
+                {
+                    Char.ToUpper(s[i + 1]);
+                }
+                else
+                {
+                    Char.ToLower(s[i + 1]);
+                }
+            }
+            return s;
         }
     }
 }
